@@ -44,19 +44,11 @@ if (isset($complete->choices[0]->message)) {
 }
 
 ?>
+ 
 <xml>
-  <ToUserName>
-    <![CDATA[<?= $touser ?>]]>
-  </ToUserName>
-  <FromUserName>
-    <![CDATA[你的公众号ID]]>
-  </FromUserName>
+  <ToUserName><![CDATA[<?= $touser ?>]]></ToUserName>
+  <FromUserName><![CDATA[公众号ID]]></FromUserName>
   <CreateTime><?php echo time(); ?></CreateTime>
-  <MsgType>
-    <![CDATA[text]]>
-  </MsgType>
-  <Content><![CDATA[<?= $text ?>]]></Content>
-  <FuncFlag>0<FuncFlag>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[<?= $text ?>]]>></Content>
 </xml>
-
-
