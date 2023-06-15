@@ -49,7 +49,7 @@ if (isset($complete->choices[0]->message)) {
     <![CDATA[<?= $touser ?>]]>
   </ToUserName>
   <FromUserName>
-    <![CDATA[你的公公众号ID]]>
+    <![CDATA[你的公众号ID]]>
   </FromUserName>
   <CreateTime><?php echo time(); ?></CreateTime>
   <MsgType>
